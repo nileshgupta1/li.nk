@@ -1,0 +1,21 @@
+{
+  "name": "li.nk",
+  "version": "1.0.0",
+  "description": "A scalable tinyURL service",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint"
+  },
+  "author": "Nilesh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.4.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
