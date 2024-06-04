@@ -4,6 +4,6 @@ module.exports = {
     method: 'GET',
     path: '/ping',
     handler: (request, h) => {
-        return 'pong';
+        return h.response('pong');
     },
 };
